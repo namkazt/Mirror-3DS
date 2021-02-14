@@ -1,0 +1,35 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Citra Launch",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "C:/Users/namka/AppData/Local/Citra/canary-mingw/citra-qt.exe",
+			"args": [
+				"${workspaceFolder}/Mirror.3dsx"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"console": "externalTerminal"
+		},
+		
+		{
+			"name": "Netlink",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "C:\\devkitPro\\tools\\bin\\3dslink.exe",
+			"args": [
+				"${workspaceFolder}/Mirror.3dsx"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"console": "externalTerminal"
+		}
+	]
+}

@@ -5,22 +5,48 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server.vcxproj", "{7E1CFB84-C6A7-4175-BFAE-0B2117810420}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "screen_capture_lite", "thirdparty\screen_capture_lite\build\screen_capture_lite.vcxproj", "{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Debug|x64.ActiveCfg = Debug|x64
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Debug|x64.Build.0 = Debug|x64
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Debug|x86.ActiveCfg = Debug|Win32
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Debug|x86.Build.0 = Debug|Win32
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.MinSizeRel|x64.Build.0 = Release|x64
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.MinSizeRel|x86.Build.0 = Release|Win32
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Release|x64.ActiveCfg = Release|x64
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Release|x64.Build.0 = Release|x64
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Release|x86.ActiveCfg = Release|Win32
 		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.Release|x86.Build.0 = Release|Win32
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{7E1CFB84-C6A7-4175-BFAE-0B2117810420}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.Debug|x64.ActiveCfg = Debug|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.Debug|x64.Build.0 = Debug|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.Debug|x86.ActiveCfg = Debug|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.MinSizeRel|x86.ActiveCfg = MinSizeRel|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.Release|x64.ActiveCfg = Release|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.Release|x64.Build.0 = Release|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.Release|x86.ActiveCfg = Release|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{3BF64FFF-501B-3099-9EE8-DF7FAD8E3599}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
